@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #395b98;
+}
+
+.advice_card {
+    width: 40%;
+    height: 250px;
+    background: #00192b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    position: relative;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: inset -1px 1px 4px 0px rgba(18, 5, 18, 0.500);
+    -webkit-box-shadow: inset -1px -1px 27px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset -1px -1px 27px 3px rgba(0, 0, 0, 0.43);
+}
+
+.advice-text {
+    color: #fffafa;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    padding: 2rem 0 2rem 0;
+}
+
+hr {
+    width: 80%;
+    height: 1px;
+    background: #000;
+    position: relative;
+    top: 1rem
+}
+
+.advice-generate-btn {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    bottom: -1rem;
+    background: #000000;
+}
+
+.advice-generate-btn svg {
+    fill: #ffffff;
+}
+
+.advice-generate-btn:hover {
+    color: white;
+    background: rgb(22, 22, 69);
+
+}
+
+@media (max-width: 650px) {
+    .advice_card {
+        width: 80%;
+        height: 280px;
+    }
+}
